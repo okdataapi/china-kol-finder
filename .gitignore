@@ -1,0 +1,5 @@
+shortlists/
+__pycache__/
+*.pyc
+.env
+.env.*

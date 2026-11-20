@@ -1,0 +1,11 @@
+Douyin · Xingtu (views = video plays)
+  #  creator             followers  median views      rate ¥ (US$)  ¥ / 1k views (US$)  categories
+  1  露营达人C                900k          2.5m    50,000 (7,042)        20.00 (2.82)  户外露营 / 露营体验
+  2  露营达人A                320k          600k    18,800 (2,648)        31.33 (4.41)  户外露营 / 露营体验
+  3  露营达人D 名字特…        200k           10k                                        户外露营 / 露营体验
+  4  =露营达人B               150k             0     9,000 (1,268)                      户外露营 / 露营体验
+
+Xiaohongshu · PGY (views = note reads)
+  #  creator             followers  median views      rate ¥ (US$)  ¥ / 1k views (US$)  categories
+  1  博主F                    105k          300k       3,000 (423)        10.00 (1.41)  美食
+  2  山野博主E                110k            4k     9,600 (1,352)   2,400.00 (338.03)  户外露营 / 露营体验

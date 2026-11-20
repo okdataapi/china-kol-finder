@@ -1,0 +1,181 @@
+{
+ "douyin": [
+  [
+   {
+    "id": "dy0001",
+    "url": "https://example.invalid/dy/1",
+    "name": "露营达人A",
+    "followers": 320000,
+    "categories": [
+     "户外露营",
+     "露营体验"
+    ],
+    "location": "浙江 杭州",
+    "gender": "female",
+    "median_views": 600000,
+    "median_engagements": 7000,
+    "rates": [
+     {
+      "type": "integrated_video",
+      "price": 18800,
+      "currency": "CNY",
+      "available": null
+     },
+     {
+      "type": "custom_video",
+      "price": 21800,
+      "currency": "CNY",
+      "available": null
+     }
+    ],
+    "engagement_rate": 0.0329
+   },
+   {
+    "id": "dy0002",
+    "url": "https://example.invalid/dy/2",
+    "name": "=露营达人B",
+    "followers": 150000,
+    "categories": [
+     "户外露营",
+     "露营体验"
+    ],
+    "location": "浙江 杭州",
+    "gender": "female",
+    "median_views": 0,
+    "median_engagements": 0,
+    "rates": [
+     {
+      "type": "integrated_video",
+      "price": 9000,
+      "currency": "CNY",
+      "available": null
+     }
+    ],
+    "engagement_rate": 0.01
+   },
+   {
+    "id": "dy0003",
+    "url": "https://example.invalid/dy/3",
+    "name": "露营达人C",
+    "followers": 900000,
+    "categories": [
+     "户外露营",
+     "露营体验"
+    ],
+    "location": "浙江 杭州",
+    "gender": "female",
+    "median_views": 2500000,
+    "median_engagements": 60000,
+    "rates": [
+     {
+      "type": "integrated_video",
+      "price": 50000,
+      "currency": "CNY",
+      "available": null
+     }
+    ],
+    "engagement_rate": 0.02
+   }
+  ],
+  [
+   {
+    "id": "dy0004",
+    "url": "https://example.invalid/dy/4",
+    "name": "露营达人D 名字特别特别长一直写到超过六十个字符为止好让表格和CSV都要截断这个名字才对啊还差几个字再补二十个字凑够长度一二三四五六七八九十",
+    "followers": 200000,
+    "categories": [
+     "户外露营",
+     "露营体验"
+    ],
+    "location": "浙江 杭州",
+    "gender": "female",
+    "median_views": 10000,
+    "median_engagements": 100,
+    "rates": [],
+    "engagement_rate": 0.005
+   },
+   {
+    "id": "dy0001",
+    "url": "https://example.invalid/dy/1",
+    "name": "露营达人A",
+    "followers": 320000,
+    "categories": [
+     "户外露营",
+     "露营体验"
+    ],
+    "location": "浙江 杭州",
+    "gender": "female",
+    "median_views": 600000,
+    "median_engagements": 7000,
+    "rates": [
+     {
+      "type": "integrated_video",
+      "price": 18800,
+      "currency": "CNY",
+      "available": null
+     }
+    ],
+    "engagement_rate": 0.0329
+   }
+  ]
+ ],
+ "xiaohongshu": [
+  [
+   {
+    "id": "xhs0001",
+    "url": "https://example.invalid/xhs/1",
+    "name": "山野博主E",
+    "followers": 110000,
+    "categories": [
+     "户外露营",
+     "露营体验"
+    ],
+    "location": "浙江 杭州",
+    "gender": "female",
+    "median_views": 4000,
+    "median_engagements": 1200,
+    "rates": [
+     {
+      "type": "image_note",
+      "price": 9600,
+      "currency": "CNY",
+      "available": true
+     },
+     {
+      "type": "video_note",
+      "price": 14600,
+      "currency": "CNY",
+      "available": true
+     }
+    ]
+   },
+   {
+    "id": "xhs0002",
+    "url": "https://example.invalid/xhs/2",
+    "name": "博主F",
+    "followers": 105000,
+    "categories": [
+     "美食"
+    ],
+    "location": "浙江 杭州",
+    "gender": "female",
+    "median_views": 300000,
+    "median_engagements": 16000,
+    "rates": [
+     {
+      "type": "image_note",
+      "price": 2000,
+      "currency": "CNY",
+      "available": false
+     },
+     {
+      "type": "video_note",
+      "price": 3000,
+      "currency": "CNY",
+      "available": true
+     }
+    ]
+   }
+  ]
+ ]
+}
