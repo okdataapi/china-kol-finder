@@ -13,6 +13,9 @@ listings from anywhere, with no Douyin, Xiaohongshu or advertiser account: the d
 [okdata](https://okdata.online/?src=gh-china-kol-finder) API, $0.004 per page of about 20 Douyin creators and
 $0.04 per page of about 20 Xiaohongshu creators. One Python file, standard library only.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/okdataapi/china-kol-finder/blob/main/china_kol_finder.ipynb)
+Try it in the browser first: the notebook asks for your key, runs one search and shows the shortlist and a chart.
+
 Good for: brands and agencies sizing a China campaign before they talk to an MCN, cross-border sellers looking
 for creators in their category, and analysts comparing what reach costs on the two platforms.
 
@@ -151,7 +154,7 @@ Cursor, Dify and other clients: see [okdata.online/mcp](https://okdata.online/mc
 
 找抖音、小红书达人，看报价和性价比。给一个内容方向（比如「露营」「护肤」）和粉丝区间，脚本会在抖音**星图**和小红书**蒲公英**两个官方达人平台上搜索，输出一张 CSV 名单：粉丝数、内容类目、近期作品的播放（阅读）和互动中位数、每种合作形式的报价（元），以及按最便宜报价算出来的「每千次播放成本」。终端里按平台分开，性价比高的排在前面。
 
-不用登录星图或蒲公英，不用抖音、小红书账号。数据来自 [okdata](https://okdata.online/zh/?src=gh-china-kol-finder)：抖音每页约 20 位达人 $0.004，小红书每页约 20 位 $0.04。一个 Python 文件，只用标准库，Python 3.9 以上。
+不想装环境可以先在浏览器里试：[Colab 笔记本](https://colab.research.google.com/github/okdataapi/china-kol-finder/blob/main/china_kol_finder.ipynb)。不用登录星图或蒲公英，不用抖音、小红书账号。数据来自 [okdata](https://okdata.online/zh/?src=gh-china-kol-finder)：抖音每页约 20 位达人 $0.004，小红书每页约 20 位 $0.04。一个 Python 文件，只用标准库，Python 3.9 以上。
 
 ```bash
 git clone https://github.com/okdataapi/china-kol-finder
