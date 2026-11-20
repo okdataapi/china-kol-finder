@@ -10,8 +10,8 @@ the best value first.
 
 Both marketplaces are built for advertisers with a Chinese business account. This reads the same public creator
 listings from anywhere, with no Douyin, Xiaohongshu or advertiser account: the data comes from the
-[okdata](https://okdata.online/?src=gh-china-kol-finder) API, /bin/zsh.004 per page of about 20 Douyin creators and
-/bin/zsh.04 per page of about 20 Xiaohongshu creators. One Python file, standard library only.
+[okdata](https://okdata.online/?src=gh-china-kol-finder) API, $0.004 per page of about 20 Douyin creators and
+$0.04 per page of about 20 Xiaohongshu creators. One Python file, standard library only.
 
 Good for: brands and agencies sizing a China campaign before they talk to an MCN, cross-border sellers looking
 for creators in their category, and analysts comparing what reach costs on the two platforms.
@@ -149,12 +149,9 @@ Cursor, Dify and other clients: see [okdata.online/mcp](https://okdata.online/mc
 
 ## 中文说明
 
-找抖音、小红书达人，看报价和性价比。给一个内容方向（比如「露营」「护肤」）和粉丝区间，脚本会在抖音**星图**和小红书
-**蒲公英**两个官方达人平台上搜索，输出一张 CSV 名单：粉丝数、内容类目、近期作品的播放（阅读）和互动中位数、每种合作
-形式的报价（元），以及按最便宜报价算出来的「每千次播放成本」。终端里按平台分开，性价比高的排在前面。
+找抖音、小红书达人，看报价和性价比。给一个内容方向（比如「露营」「护肤」）和粉丝区间，脚本会在抖音**星图**和小红书**蒲公英**两个官方达人平台上搜索，输出一张 CSV 名单：粉丝数、内容类目、近期作品的播放（阅读）和互动中位数、每种合作形式的报价（元），以及按最便宜报价算出来的「每千次播放成本」。终端里按平台分开，性价比高的排在前面。
 
-不用登录星图或蒲公英，不用抖音、小红书账号。数据来自 [okdata](https://okdata.online/zh/?src=gh-china-kol-finder)：
-抖音每页约 20 位达人 $0.004，小红书每页约 20 位 $0.04。一个 Python 文件，只用标准库，Python 3.9 以上。
+不用登录星图或蒲公英，不用抖音、小红书账号。数据来自 [okdata](https://okdata.online/zh/?src=gh-china-kol-finder)：抖音每页约 20 位达人 $0.004，小红书每页约 20 位 $0.04。一个 Python 文件，只用标准库，Python 3.9 以上。
 
 ```bash
 git clone https://github.com/okdataapi/china-kol-finder
@@ -172,8 +169,7 @@ python3 kolfinder.py --query 护肤 --platform xiaohongshu --pages 3   # 只搜�
 - **报价是平台上的刊例价**，单位是元，没算议价。达人暂不接单的报价会留在 `rates` 列里并注明，但不算最便宜的那个。
 - **按内容搜会比较宽**：偶尔发过露营内容的旅行、美食博主也会被搜出来，挑人前先看 `categories` 类目。
 - 粉丝区间写法：`100k-1m`（10 万到 100 万）、`100k-`（10 万以上）、`-500k`（50 万以下）。
-- 同一个 Key 还能查达人的粉丝画像（性别、年龄、城市、兴趣）和近期作品，也能通过 MCP 接进 Claude、Cursor、Dify，
-  直接问「找 10 个 5 万到 20 万粉的小红书护肤博主，对比报价和粉丝画像」，见 [MCP 接入](https://okdata.online/zh/mcp/?src=gh-china-kol-finder)。
+- 同一个 Key 还能查达人的粉丝画像（性别、年龄、城市、兴趣）和近期作品，也能通过 MCP 接进 Claude、Cursor、Dify，直接问「找 10 个 5 万到 20 万粉的小红书护肤博主，对比报价和粉丝画像」，见 [MCP 接入](https://okdata.online/zh/mcp/?src=gh-china-kol-finder)。
 - 这是 okdata 的示例项目，和抖音、星图、小红书、蒲公英官方无关；真正下单仍然在星图、蒲公英上完成。只用公开的达人报价信息，请用于投放规划，不要给个人建档。
 
 ## License
